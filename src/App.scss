@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import './Component/Css/footer.scss';
+@import './Component/Css/navbar.scss';
+@import './Component/Css/dashboard.scss';
+@import './Component/Css/addproduct.scss';
+@import './Component/Css/signup.scss';

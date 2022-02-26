@@ -1,0 +1,80 @@
+#signup {
+  width: 50%;
+  height: 40rem;
+  margin: auto;
+  background-color: #525461;
+  color: rgb(224, 208, 208);
+  display: grid;
+  place-items: center;
+  #signup-form {
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #3b3d4a;
+
+    width: 80%;
+    height: 80%;
+    background-color: #282a37;
+    #title {
+      margin-top: 8rem;
+      padding-left: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 50%;
+      h1 {
+        width: auto;
+      }
+      small {
+        margin-top: 10px;
+        a {
+          color: #184d84;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+      .input-contents {
+        input {
+            outline: none;
+          color: white;
+          margin-top: 20px;
+          margin-right: 2rem;
+          background-color: #323645;
+          width: 40%;
+          height: 2rem;
+          outline: none;
+          border-radius: 10px;
+          
+        }
+
+        button{
+            outline: none;
+            border-radius: 20px;
+            margin-top: 2rem;
+            width: 40%;
+            margin-right: 2rem;
+            height: 2rem;
+            background-color: #545B69;
+            color:white;
+            font-weight: bold;
+
+            #create-account{
+                background-color: red;
+            }
+        }
+        
+      }
+
+
+      #gender {
+          margin-right: 2rem;
+          border-radius: 10px;
+          outline: none;
+        color: gray;
+        background-color: #323645;
+        height: 2rem;
+        margin-top: 20px;
+        width: 90%;
+      }
+    }
+  }
+}
